@@ -2,7 +2,7 @@
   "name": "colegio-medinaceli-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Mutillidae.github.io/EXAMEN_FINAL-DE-HASSER",
+  "homepage": "https://Mutillidae.github.io/briders_holos/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

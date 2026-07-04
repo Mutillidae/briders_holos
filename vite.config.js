@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: "https://Mutillidae.github.io/briders_holos"
+  base: "https://Mutillidae.github.io/briders_holos/"
 })

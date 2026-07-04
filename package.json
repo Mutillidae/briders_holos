@@ -2,24 +2,23 @@
   "name": "colegio-medinaceli-react",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Mutillidae.github.io/briders_holos",
+  "homepage": "https://Mutillidae.github.io/briders_holos/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
-    "react-router-dom": "^6.26.0",
-    "react-icons": "^5.0.0"
+    "react-icons": "^5.0.0",
+    "react-router-dom": "^6.26.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.0",
-    "vite": "^5.0.0",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^6.3.0",
+    "vite": "^5.0.0"
   }
 }

@@ -40,6 +40,12 @@ function App() {
   if (!entrar) {
   return (
     <div className="welcome">
+      <div className="snow-container">
+        {[...Array(15)].map((_, index) => (
+          <div key={index} className="snowflake">❄</div>
+        ))}
+
+      </div>
 
       <img src= {escudoM} alt="escudo de colegio" className="welcome-logo" />
       <h2>BIENVENIDOS!!!</h2>
@@ -48,8 +54,9 @@ function App() {
 
       <p>
           Honor • Disciplina • Deporte
-          ADELANTE MEDINACELI!!!
       </p>
+      
+      <p>ADELANTE MEDINACELI!!!</p>
 
       <button
         className="btn-entrar"

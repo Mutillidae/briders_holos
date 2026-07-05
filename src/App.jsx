@@ -1,25 +1,22 @@
 import { useState } from "react";
+import Header from "./components/Header.jsx";
+import Sidebar from "./components/Sidebar.jsx";
+import Footer from "./components/Footer.jsx";
 import "./App.css";
 
-import Header from "./components/header";
-import Sidebar from "./components/sidebar";
-import Footer from "./components/footer";
+import Home from "./pages/Home..jsx";
+import Historia from "./pages/Historia.jsx";
+import Contacto from "./pages/Contacto.jsx";
+import Banda from "./pages/Banda.jsx";
+import Fraternidad from "./pages/Fraternidad.jsx";
+import Promocion from "./pages/Promocion.jsx";
+import Deporte from "./pages/Deporte.jsx";
+import Docente from "./pages/Docente.jsx";
+import Noticia from "./pages/Noticia.jsx";
+import Mapa from "./pages/Mapa.jsx";
+import Login from "./pages/Login.jsx";
 
-import Home from "./pages/home";
-import Historia from "./pages/historia";
-import Contacto from "./pages/contacto";
-import Banda from "./pages/banda";
-import Fraternidad from "./pages/fraternidad";
-import Promocion from "./pages/promocion";
-import Deporte from "./pages/deporte";
-import Docente from "./pages/docente";
-import Noticia from "./pages/noticia";
-import Mapa from "./pages/mapa.";
-import Login from "./pages/login";
-
-function App() {
-  const [pagina, setPagina] = useState("home");
-  const titulos = {
+const titulos = {
   home: "Inicio",
   historia: "Historia",
   contacto: "Contacto",
@@ -32,6 +29,10 @@ function App() {
   mapa: "Mapa Satelital",
   login: "Iniciar Sesión",
 }
+
+function App() {
+  const [pagina, setPagina] = useState("home");
+  
 
   return (
     <div className="app">

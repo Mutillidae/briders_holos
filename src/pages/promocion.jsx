@@ -1,3 +1,4 @@
+
 function Promocion() {
   return (
     <section className="page">

@@ -954,3 +954,15 @@ width:100%;
 
     transform:scale(1.04);
 }
+
+.footer-app {
+  background: #7b0000;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  margin-top: auto;
+}
+
+.footer-app h3 {
+  margin-bottom: 10px;
+}

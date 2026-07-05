@@ -3,6 +3,7 @@ import Header from "./components/Header.jsx";
 import Sidebar from "./components/Sidebar.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
+import escudom from "../src/assets/images/historia/medi.jpg"
 
 import Home from "./pages/Home.jsx";
 import Historia from "./pages/Historia.jsx";
@@ -38,7 +39,7 @@ function App() {
   return (
     <div className="welcome">
 
-      <img src="../src/assets/images/escudomedi.jpg"alt="Escudo"className="welcome-logo"
+      <img src= {escudom} alt="Escudo"className="welcome-logo"
       />
       <h2>BIENVENIDOS!!!</h2>
 

@@ -1,6 +1,4 @@
-function Sidebar({ setPagina }) {
-  
-  const menu = [
+const menu = [
     { id: "home", nombre: "🏠 Inicio" },
     { id: "historia", nombre: "📖 Historia" },
     { id: "contacto", nombre: "📞 Contacto" },
@@ -13,6 +11,11 @@ function Sidebar({ setPagina }) {
     { id: "mapa", nombre: "🗺️ Mapa Satelital" },
     { id: "login", nombre: "🔑 Login" },
   ];
+
+
+function Sidebar({ setPagina }) {
+  
+  
   
   return (
     <aside className="sidebar">

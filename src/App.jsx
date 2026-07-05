@@ -4,7 +4,7 @@ import Sidebar from "./components/Sidebar.jsx";
 import Footer from "./components/Footer.jsx";
 import "./App.css";
 
-import Home from "./pages/Home..jsx";
+import Home from "./pages/Home.jsx";
 import Historia from "./pages/Historia.jsx";
 import Contacto from "./pages/Contacto.jsx";
 import Banda from "./pages/Banda.jsx";
@@ -47,9 +47,11 @@ function App() {
         />
 
         <main className="contenido">
+          
           <div className="titulo-pagina">
             <h2>{titulos[pagina]}</h2>
           </div>
+          
           <div className="contenido-cards">
           {pagina === "home" && <Home />}
           {pagina === "historia" && <Historia />}

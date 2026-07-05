@@ -1,4 +1,4 @@
-function Historia() {
+function Historia({setPagina}) {
     return (
     <section className="page">
         <h2>Historia del Colegio Carlos Medinaceli</h2>
@@ -19,6 +19,12 @@ function Historia() {
             src="https://via.placeholder.com/700x350?text=Historia+del+Colegio"
             alt="Historia del Colegio"
         />
+
+        <button>
+            className="btn-volver" onClick={() => setPagina("home")}
+            ← Volver al Inicio
+        </button>
+
     </div>
     </section>
   );

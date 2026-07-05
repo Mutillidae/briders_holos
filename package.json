@@ -1,7 +1,7 @@
 {
   "name": "deploy-example",
   "private": true,
-  "homepage": "https://Mutillidae.github.io/briders_holos",
+  "homepage": "/briders_holos/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

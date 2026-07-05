@@ -32,7 +32,36 @@ const titulos = {
 
 function App() {
   const [pagina, setPagina] = useState("home");
-  
+  const [entrar, setEntrar] = useState(false);
+
+  if (!entrar) {
+  return (
+    <div className="welcome">
+
+      <img
+        src="/escudo.png"
+        alt="Escudo"
+        className="welcome-logo"
+      />
+
+      <h1>UNIDAD EDUCATIVA</h1>
+
+      <h2>CARLOS MEDINACELI</h2>
+
+      <p>
+        Educación • Disciplina • Valores
+      </p>
+
+      <button
+        className="btn-entrar"
+        onClick={() => setEntrar(true)}
+      >
+        Entrar al Portal
+      </button>
+
+    </div>
+  );
+}
 
   return (
     <div className="app">

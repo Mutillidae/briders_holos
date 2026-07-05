@@ -1,15 +1,15 @@
 import { useState } from "react";
 import "./App.css";
 
-import Header from "./components/Header";
-import Sidebar from "./components/Sidebar";
-import Footer from "./components/Footer";
+import Header from "./components/header";
+import Sidebar from "./components/sidebar";
+import Footer from "./components/footer";
 
-import Home from "./pages/Home";
+import Home from "./pages/home";
 import Historia from "./pages/historia";
 import Contacto from "./pages/contacto";
 import Banda from "./pages/banda";
-import Fraternidad from "./pages/fraternal";
+import Fraternidad from "./pages/fraternidad";
 import Promocion from "./pages/promocion";
 import Deporte from "./pages/deporte";
 import Docente from "./pages/docente";

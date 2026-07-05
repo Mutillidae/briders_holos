@@ -117,37 +117,46 @@
 
 
 sidebar {
-  width: 260px;
-  background: #7b0000;
-  padding: 28px;
+  width: 280px;
+  background-color: #f0f4f8;
+  padding: 15px;
   display: flex;
   flex-direction: column;
+  gap: 4px;
   box-shadow: 4px 0 10px rgba(0,0,0,.2);
+  border-right: 1px solid #d0d7de;
+  height: 100vh;
 }
 
 .sidebar-title {
-  color: white;
-  text-align: center;
-  margin-bottom: 25px;
-  border-bottom: 2px solid gold;
-  padding-bottom: 15px;
-  font-size: 22px;
+  font-size: 1.1rem;
+  color: #334e68;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #bcccdc;
+  margin-bottom: 10px;
 }
 
 .menu-btn {
-  background: White;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  background: transparent;
   border: none;
-  color: #7b0000;
-  border: none;
+  border-radius: 6px;
+  color: #486581;
   margin-bottom: 12px;
-  padding: 14px;
+  padding: 12px 15px;
   border-radius: 6px;
   cursor: pointer;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 0.95rem;
+  font-weight: 500;
   text-align: left;
   transition: all 0.3s ease;
   letter-spacing: 5px;
+  transition: all 0.2s ease;
 }
 
 .menu-btn:hover {

@@ -27,49 +27,7 @@ function Sidebar({ setPagina }) {
         </button>
       ))}
 
-      <button onClick={() => setPagina("home")} className="menu-btn">
-        Inicio
-      </button>
-
-      <button onClick={() => setPagina("historia")} className="menu-btn">
-        Historia
-      </button>
-
-      <button onClick={() => setPagina("contacto")} className="menu-btn">
-        Contacto
-      </button>
-
-      <button onClick={() => setPagina("banda")} className="menu-btn">
-        Banda
-      </button>
-
-      <button onClick={() => setPagina("suris")} className="menu-btn">
-        Fraternidad Suris
-      </button>
-
-      <button onClick={() => setPagina("promociones")}>
-        Promociones
-      </button>
-
-      <button onClick={() => setPagina("deportes")}>
-        Deportes
-      </button>
-
-      <button onClick={() => setPagina("noticias")}>
-        Noticias
-      </button>
-
-      <button onClick={() => setPagina("docentes")}>
-        Docentes
-      </button>
-
-      <button onClick={() => setPagina("mapa")}>
-        Mapa
-      </button>
-
-      <button onClick={() => setPagina("login")}>
-        Login
-      </button>
+      
 
     </aside>
   );

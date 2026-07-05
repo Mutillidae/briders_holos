@@ -38,26 +38,30 @@ function App() {
   return (
     <div className="welcome">
 
-      <img
-        src="/escudo.png"
-        alt="Escudo"
-        className="welcome-logo"
+      <img src="../src/assets/images/escudomedi.jpg"alt="Escudo"className="welcome-logo"
       />
+      <h2>BIENVENIDOS!!!</h2>
 
-      <h1>UNIDAD EDUCATIVA</h1>
-
-      <h2>CARLOS MEDINACELI</h2>
+      <h1>COLEGIO CARLOS MEDINACELI</h1>
 
       <p>
-        Educación • Disciplina • Valores
+          Honor • Disciplina • Deporte
+          ADELANTE MEDINACELI!!!
       </p>
 
       <button
         className="btn-entrar"
         onClick={() => setEntrar(true)}
       >
-        Entrar al Portal
+        Entrar
       </button>
+
+      <footer className="footer-app"> 
+      <h3>
+        Copyright ©  Yerkov Laime M Todos los derechos reservados.
+      </h3>
+          
+      </footer>
 
     </div>
   );

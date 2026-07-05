@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import escudo from "../assets/images/escudomedi.jpg";
 import tigre from "../assets/images/tigre.jpg";
+import banner from "../assets/images/banner/banner.png"
 
 function Header() {
   const [fechaHora, setFechaHora] = useState("");
@@ -36,11 +37,9 @@ function Header() {
       </div>
 
       <div className="header-info">
-        <h1>COLEGIO CARLOS MEDINACELI</h1>
-        <h3>UNIDAD EDUCATIVA</h3>
         <p>"Educación • Disciplina • Valores"</p>
         <span>{fechaHora}</span>
-
+          <img src={banner} alt="banner de colegio" />
       </div>
 
       <div className="header-right">

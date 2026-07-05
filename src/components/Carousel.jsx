@@ -8,16 +8,19 @@ function Carousel() {
   const imagenes = [banner1, banner2, banner3];
 
   const [indice, setIndice] = useState(0);
+  const [pausado, setPausado] = useState(false);
 
   useEffect(() => {
+    if (pausado) return;
+
     const intervalo = setInterval(() => {
       setIndice((prev) => (prev + 1) % imagenes.length);
     }, 4000);
 
     return () => clearInterval(intervalo);
-  }, [imagenes.length]);
+  }, [pausado, imagenes.length]);
 
-  const siguiente = () => {
+    const siguiente = () => {
     setIndice((prev) => (prev + 1) % imagenes.length);
   };
 
@@ -28,44 +31,38 @@ function Carousel() {
   };
 
   return (
-    <div className="carousel">
-
+    <div
+      className="carousel"
+      onMouseEnter={() => setPausado(true)}
+      onMouseLeave={() => setPausado(false)}
+    >
       <img
         src={imagenes[indice]}
         alt={`Banner ${indice + 1}`}
+        className="carousel-image"
       />
 
-      <button
-        className="btn-prev"
-        onClick={anterior}
-      >
+      <button className="btn-prev" onClick={anterior}>
         ❮
       </button>
 
-      <button
-        className="btn-next"
-        onClick={siguiente}
-      >
+      <button className="btn-next" onClick={siguiente}>
         ❯
       </button>
 
       <div className="indicadores">
-
         {imagenes.map((_, i) => (
           <span
             key={i}
-            className={
-              indice === i
-                ? "dot activo"
-                : "dot"
-            }
+            className={indice === i ? "dot activo" : "dot"}
+            onClick={() => setIndice(i)}
           ></span>
         ))}
-
       </div>
-
     </div>
   );
-}
+} 
+
+
 
 export default Carousel;

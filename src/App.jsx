@@ -52,10 +52,7 @@ function App() {
 
       <h1>COLEGIO CARLOS MEDINACELI</h1>
 
-      <p>
-          Honor • Disciplina • Deporte
-      </p>
-      
+      <p>Honor • Disciplina • Deporte</p>
       <p>ADELANTE MEDINACELI!!!</p>
 
       <button

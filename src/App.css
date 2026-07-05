@@ -815,7 +815,7 @@ width:100%;
     flex-direction:column;
     justify-content:center;
     align-items:center;
-    background:linear-gradient( 135deg,#7b0000,#a00000);
+    background:linear-gradient( 135deg,#0a0202,#220101);
     color:white;
     text-align:center;
     padding:20px;
@@ -1029,7 +1029,7 @@ width:100%;
 }
 
 .footer-app {
-  background:linear-gradient( 135deg,#a00000,#a00000); 
+  background:linear-gradient( 135deg,#000000); 
   color: white;
   text-align: center;
   padding: 25px;

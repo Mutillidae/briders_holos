@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import escudo from "../assets/images/escudomedi.jpg";
-import tigre from "../assets/images/tigre.jpg";
 import banner from "../assets/images/banner/banner.png"
 
 function Header() {
@@ -33,7 +31,7 @@ function Header() {
     <header className="header">
 
       <div className="header-logo">
-        <img src={escudo} alt="Escudo de colegio" />
+        
       </div>
 
       <div className="header-info">
@@ -43,7 +41,7 @@ function Header() {
       </div>
 
       <div className="header-right">
-        <img src={tigre} alt="Tigre del colegio" />
+        
       </div>
 
     </header>
